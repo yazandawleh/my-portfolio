@@ -1,0 +1,72 @@
+.home{
+    background: -webkit-linear-gradient(left, rgb(0, 0, 15), rgb(1, 1, 56));
+    padding: 150px 0;
+}
+.home-page{
+    display: flex;
+    align-items: center;
+}
+.home-title{
+    width: fit-content;
+    height: auto;
+    border: 1px white solid;
+    margin-left: 40px;
+    padding-inline: 10px;
+    background:-webkit-linear-gradient(left,rgb(1, 1, 88),#088395);
+    color: white;
+    margin-bottom: 60px;
+}
+.home-text h2{
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.myname span{
+    color: #088395 !important;
+}
+.home-text h2 span{
+    color: #f5576c;
+}
+.home-p{
+    margin-left: 75px;
+    margin-top: 70px;
+    color: rgba(255, 255, 255, 0.781);
+    width: 400px;
+    font-size: 16px;
+}
+.home-connect{
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 75px;
+    color: white;
+}
+.home-connect:hover{
+    font-size: 30px;
+    color: #088395;
+}
+.home-img{
+    transition: 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: home-image;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes home-image {
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(0deg);
+    }
+}
+.home-img:hover{
+    animation-play-state: paused;
+}
+
+

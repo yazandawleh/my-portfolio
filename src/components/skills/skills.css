@@ -1,0 +1,21 @@
+#skills{
+    background: url(./images/skills-bg3.jpg) fixed center no-repeat ;
+    background-size: cover;
+}
+.skills-container{
+    text-align: center;
+    color: white;
+}
+.skills-title{
+    padding: 50px 0px;
+    font-size: 50px;
+
+}
+.bar{
+    padding-inline: 20px;
+    color: red;
+}
+.skill-label{
+    padding-top: 10px;
+    margin-right: 20px;
+}

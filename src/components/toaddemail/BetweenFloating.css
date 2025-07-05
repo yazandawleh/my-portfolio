@@ -1,0 +1,53 @@
+.floating-wrapper {
+  position: relative;
+  height: 0;
+  z-index: 2;
+}
+
+.floating-box {
+  position: absolute;
+  top: -130px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.floating-box h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.floating-box p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.floating-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.floating-box input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #ffffff;
+  color: #333;
+}
+
+
+

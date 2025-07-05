@@ -1,0 +1,29 @@
+#connect{
+    background: -webkit-linear-gradient(left, rgb(0, 0, 15), rgb(1, 1, 56));
+    position: 'relative';
+    z-index: 1;
+    padding-bottom: 150px !important;
+}
+
+.contact-icons i {
+    font-size: 40px;
+    color: aqua;
+
+}
+.contact-text{
+    color: white;
+    font-size: 30px;
+
+}
+.contact-text span{
+    color: aqua;
+}
+input ,textarea{
+    background-color: rgba(255, 255, 255, 0.047) !important;
+}
+input::placeholder, textarea::placeholder{
+    color: white !important;
+}
+input:focus ,textarea:focus{
+    background-color: white !important;
+}
